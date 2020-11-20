@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "882190991253",
+    "firebase_url": "https://letslearn-8cc48.firebaseio.com",
+    "project_id": "letslearn-8cc48",
+    "storage_bucket": "letslearn-8cc48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882190991253:android:9ab86e773830ab928a409c",
+        "android_client_info": {
+          "package_name": "com.example.letslearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882190991253-nojvtlt3tp4vnv92c08630mlsdst47dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3FLJgm9nwriaxJPi3t4v8SOOcdhgC3nQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882190991253-nojvtlt3tp4vnv92c08630mlsdst47dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

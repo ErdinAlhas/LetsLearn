@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".FilterRouteActivity">
+
+    <Button
+        android:id="@+id/buttonDig"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="70dp"
+        android:text="Diğer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGeo" />
+
+    <Button
+        android:id="@+id/buttonMat"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        android:text="Matematik"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGeo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFiz" />
+
+    <Button
+        android:id="@+id/buttonTur"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="70dp"
+        android:text="Türkçe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKim" />
+
+    <Button
+        android:id="@+id/buttonKim"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="70dp"
+        android:text="Kimya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonTur"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonFiz"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        android:text="Fizik"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBio" />
+
+    <Button
+        android:id="@+id/buttonBio"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="31dp"
+        android:text="Biyoloji"
+        app:layout_constraintEnd_toStartOf="@+id/buttonKim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGeo"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="70dp"
+        android:text="Geometri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTur" />
+
+    <Button
+        android:id="@+id/buttonTar"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        android:text="Tarih"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDig"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMat" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButtonHome"
+                android:layout_width="135dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageButtonProfile"
+                app:layout_constraintStart_toEndOf="@+id/imageButtonCamera"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_import_contacts_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/imageButtonProfile"
+                android:layout_width="135dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageButtonHome"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user__1_" />
+
+            <ImageButton
+                android:id="@+id/imageButtonCamera"
+                android:layout_width="135dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageButtonHome"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/dialogue" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
